@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+body{
+    background-color: rgb(201, 171, 247) !important;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    font-family: 'Josefin Sans', sans-serif !important;
+    font-size: 50pt !important;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif !important;
+    font-size: 18pt !important;
+}
+
+form{
+    background-color: aliceblue !important;
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+    width: 50%; /* El formulario ocupará el 50% del ancho de la ventana */
+    box-sizing: border-box; /* Asegura que el padding y el borde no aumenten el ancho total del formulario */
+    padding: 20px; /* Espacio interior alrededor del contenido del formulario */
+    border: 1px solid #000000;
+    box-shadow: 0px 0px 80px rgb(0, 0, 0); /* Sombreado alrededor del formulario */
+    text-align: center; /* Centra el contenido del formulario horizontalmente */
+    display: block;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: center;
+}
+
+label{ 
+    margin-bottom: 5%;
+    font-size: 21pt;
+    margin-right: 2%;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    font-family: 'Josefin Sans', sans-serif !important;
+    font-size: 25pt !important;
+}
+
